@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    display: grid;
+    width: 690px;
+    height: 690px;
+    grid-template-columns: 81px 81px 81px 159px 98px 98px 38px;
+    grid-template-rows: 90px 169px 171px 60px 60px 50px 25px 10px;
+    background-color: #000;
+    gap: 9px;
+}
+
+.item {
+    background-color: #F0F1EC;
+}
+
+.white1 {
+    grid-column: span 2;
+}
+
+.white2 {
+    grid-column: span 2;
+}
+
+.yellow1 {
+    grid-column: span 2;
+    background-color: #F9D01E;
+}
+
+.white3 {
+    grid-row: span 4;
+}
+
+.red1 {
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: #E72F24;
+}
+
+.yellow2 {
+    grid-column: span 2;
+    background-color: #F9D01E;
+}
+
+.white5 {
+    grid-row: span 2;
+}
+
+.black1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #232629;
+}
+
+.white8 {
+    grid-column: span 1;
+}
+
+.white9 {
+    grid-column: span 2;
+}
+
+.yellow3 {
+    grid-row: span 3;
+    background-color: #F9D01E;
+}
+
+.white11 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.blue {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #004592;
+}
+
+.red2 {
+    grid-row: span 3;
+    background-color: #E72F24;
+}
+
+.black2 {
+    background-color: #232629;
+}
+
+.white12 {
+    grid-column: span 3;
+}
+
+.description {
+    width: 690px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.paintinginfo {
+    list-style: none;
+}
+
+.paintinginfo a {
+    color: navy;
+    text-decoration: none;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    padding-left: 10px;
+}
